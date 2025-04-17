@@ -1,0 +1,77 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4ff;
+  color: #333;
+}
+header {
+  background: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo span {
+  color: #c90076;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+.chat-btn {
+  background: #c90076;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.hero {
+  padding: 60px 0;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .text h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+.hero .text p {
+  max-width: 500px;
+}
+.buttons .btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.primary {
+  background: #c90076;
+  color: white;
+}
+.secondary {
+  background: #eee;
+  color: #333;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #ddd;
+  margin-top: 40px;
+}
